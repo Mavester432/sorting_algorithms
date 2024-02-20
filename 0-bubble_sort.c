@@ -38,7 +38,7 @@ while (bubbly == false)
 	{
 	swap_ints(array + i, array + i + 1);
 	print_array(array, size);
-	bybbly = false;
+	bubbly = false;
 	}
 	}
 	len--;
