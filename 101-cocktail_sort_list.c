@@ -24,7 +24,7 @@ tmp->prev = (*shaker)->prev;
 if (tmp->next != NULL)
 	tmp->next->prev = *shaker;
 else
-	*tail *shaker;
+	*tail = *shaker;
 (*shaker)->prev = tmp;
 tmp->next = *shaker;
 *shaker = tmp;
